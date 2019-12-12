@@ -1,0 +1,8 @@
+<?php 
+		
+//konesi database
+$conn = mysqli_connect("localhost","root","","cashier");
+if (!$conn) {
+	die ('Gagal terhubung MySQL: ' . mysqli_connect_error());	
+}
+?>
